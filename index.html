@@ -6,24 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/design.css">
+    <link rel="stylesheet" href="estilo/desktop.css">
+    <link rel="shortcut icon" href="./imagens/favicon-32x32.png" type="image/x-icon">
     <title>Results summary component</title>
 </head>
 <body>
-    <main>
-        <section class="results">
-            <h1>Your Result</h1>
-            <div class="circle">
-                <h1><strong>76</strong></h1>
-                <p>of 100</p>
-            </div>
-       
-            <div class="results-text">
-                <h1>Great</h1>
-                <p>You scored higher than 65% of the people who have taken these tests.</p>
-            </div>
-        </section>
-        <!-- <section>
-        </section> -->
-    </main>
+  <main>
+    <section class="section1">
+      <div class="results">
+        <div class="results-title">
+          <h1>Your Result</h1>
+        </div>
+        <div class="results-circle">
+          <p><strong>76</strong></p>
+          <p>of 100</p>
+        </div>
+        <div class="results-text">
+          <h1>Great</h1>
+          <p>You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section2">
+      <div class="summary">
+        <h2>Summary</h2>
+        <ul>
+          <li class="reaction list"><img src="./imagens/icon-reaction.svg"><p>Reaction</p><strong>80</strong><span>/ 100</span></li>
+          <li class="memory list"><img src="./imagens/icon-memory.svg"><p>Memory</p> <strong>92</strong><span>/ 100</span></li>
+          <li class="verbal list"><img src="./imagens/icon-verbal.svg"><p>Verbal</p> <strong>61</strong><span>/ 100</span></li>
+          <li class="visual list"><img src="./imagens/icon-visual.svg"><p>Visual</p> <strong>72</strong><span>/ 100</span></li>
+        </ul>
+        <a class="button" href="@">Continue</a>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
