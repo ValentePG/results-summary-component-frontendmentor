@@ -127,7 +127,7 @@ ul {
 
 .list > strong {
   color: var(--button);
-  padding-right: 6px;
+  padding-right: 0.6rem;
 }
 
 .list > span {
@@ -157,7 +157,7 @@ ul {
 
 .button {
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin-top: 40px;
   width: 100%;
   text-align: center;
