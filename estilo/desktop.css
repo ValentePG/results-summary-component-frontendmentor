@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
-@media (max-width: 400px){
+@media (min-width: 762px){
+    main{
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
 
 }
