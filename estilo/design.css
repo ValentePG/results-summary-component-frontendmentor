@@ -9,18 +9,14 @@
 
 :root {
   font-size: 62.5%;
-
   --background1:  hsl(252, 100%, 67%);
   --background2:  hsl(241, 81%, 54%);
-
   --circle1:  hsla(256, 72%, 46%, 1);
   --circle2:  hsla(241, 72%, 46%, 0);
-
   --white: hsl(0, 0%, 100%);
   --white2:hsl(221, 100%, 96%);
   --paragraph:hsla(241, 100%, 89%, 0.76);
   --button: hsl(224, 30%, 27%);
-
   --reaction: rgba(255, 87, 87, 0.767); 
   --memory: hsl(39, 100%, 56%, 0.767);
   --verbal: hsl(166, 100%, 37%, 0.767);
@@ -116,7 +112,7 @@ ul {
 }
 
 .list{
-  padding: 1.5rem 2rem;
+  padding: 15px 20px;
   border-radius: 10px;
   font-weight: 700;
   display: flex;
@@ -161,7 +157,7 @@ ul {
 .button {
   font-weight: 700;
   font-size: 2rem;
-  margin-top: 4rem;
+  margin-top: 40px;
   width: 100%;
   text-align: center;
   display: inline-block;
@@ -169,7 +165,7 @@ ul {
   color: var(--white);
   background-color: var(--button);
   border-radius: 30px;
-  padding: 2.4rem 4.8rem;
+  padding: 24px 48px;
 }
 
 .button:hover {
