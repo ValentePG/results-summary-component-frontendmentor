@@ -35,11 +35,14 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
 .section1{
   background-image: linear-gradient(to bottom, var(--background1), var(--background2));
   border-radius: 0 0 30px 30px;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -50,7 +53,7 @@ main {
   align-items: center;
   text-align: center;
   gap: 40px;
-  width: 300px;
+  width: 60%;
   padding: 30px 0 50px 0;
 }
 
@@ -63,8 +66,8 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 150px;
-  width: 150px;
+  height: 175px;
+  width: 200px;
   background-image: linear-gradient(to top, var(--circle2), var(--circle1));
   border-radius: 50%;
 }
@@ -88,14 +91,14 @@ main {
 
 /* section2 */
 .section2{
-  margin: 30px;
   display: flex;
   justify-content: center;
+  width: 100%;
+  padding: 0px 30px;
 }
 
 .summary {
-  width: 440px;
-  flex-direction: column;
+  width: 100%;
 }
 
 .summary > h2{
@@ -110,26 +113,27 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  
 }
 
 .list{
-  padding: 15px 20px;
+  padding: 1.5rem 2rem;
   border-radius: 10px;
   font-weight: 700;
   display: flex;
+  position: relative;
 }
 
-.list > p {
-  width: 77%;
+.list > .info{
+  position: absolute;
+  right: 20px;
 }
 
-.list > strong {
+.list > .info strong {
   color: var(--button);
   padding-right: 0.6rem;
 }
 
-.list > span {
+.list > .info span {
   color:hsl(241, 43%, 70%);
 }
 
@@ -157,7 +161,7 @@ ul {
 .button {
   font-weight: 700;
   font-size: 2rem;
-  margin-top: 40px;
+  margin-top: 4rem;
   width: 100%;
   text-align: center;
   display: inline-block;
@@ -165,7 +169,7 @@ ul {
   color: var(--white);
   background-color: var(--button);
   border-radius: 30px;
-  padding: 24px 48px;
+  padding: 2.4rem 4.8rem;
 }
 
 .button:hover {
