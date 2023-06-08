@@ -91,6 +91,7 @@ main {
   justify-content: center;
   width: 100%;
   padding: 0px 30px;
+  border-radius: 0 0 30px 30px;
 }
 
 .summary {
