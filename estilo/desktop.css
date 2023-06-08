@@ -1,12 +1,16 @@
 @charset "UTF-8";
 
 @media (min-width: 762px){
-    main{
-      flex-direction: row;
+    body{
+      display: flex;
       align-items: center;
       justify-content: center;
-      gap: 0px;
       min-height: 100vh;
+    }
+    
+    main{
+      flex-direction: row;
+      gap: 0px;
     }
 
     .section1, .section2{
