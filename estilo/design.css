@@ -113,7 +113,7 @@ ul {
 }
 
 .list{
-  padding: 15px 20px;
+  padding: 15px 20px 15px 35px;
   border-radius: 10px;
   font-weight: 700;
   display: flex;
@@ -134,25 +134,25 @@ ul {
   color:hsl(241, 43%, 70%);
 }
 
-.reaction {
-  background: hsla(0, 100%, 67%, 0.068) url(../imagens/icon-reaction.svg) no-repeat left;
+.Reaction {
+  background: hsla(0, 100%, 67%, 0.068) url(../imagens/icon-reaction.svg) no-repeat 10px;
   color: var(--reaction);
   
 }
 
-.memory {
-  background: hsl(39, 100%, 56%, 0.068) url(../imagens/icon-memory.svg) no-repeat left center;
+.Memory {
+  background: hsl(39, 100%, 56%, 0.068) url(../imagens/icon-memory.svg) no-repeat 10px ;
   color: var(--memory);
   
 }
 
-.verbal {
-  background: hsl(166, 100%, 37%, 0.068) url(../imagens/icon-verbal.svg) no-repeat left center;
+.Verbal {
+  background: hsl(166, 100%, 37%, 0.068) url(../imagens/icon-verbal.svg) no-repeat 10px ;
   color: var(--verbal);
 }
 
-.visual {
-  background: hsla(234, 85%, 45%, 0.068) url(../imagens/icon-visual.svg) no-repeat left center;
+.Visual {
+  background: hsla(234, 85%, 45%, 0.068) url(../imagens/icon-visual.svg) no-repeat 10px ;
   color: var(--visual);
 }
 
