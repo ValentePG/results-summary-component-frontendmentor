@@ -135,23 +135,24 @@ ul {
 }
 
 .reaction {
-  background-color:hsla(0, 100%, 67%, 0.068);
+  background: hsla(0, 100%, 67%, 0.068) url(../imagens/icon-reaction.svg) no-repeat left;
   color: var(--reaction);
+  
 }
 
 .memory {
-  background-color:hsl(39, 100%, 56%, 0.068);
+  background: hsl(39, 100%, 56%, 0.068) url(../imagens/icon-memory.svg) no-repeat left center;
   color: var(--memory);
   
 }
 
 .verbal {
-  background-color:hsl(166, 100%, 37%, 0.068);
+  background: hsl(166, 100%, 37%, 0.068) url(../imagens/icon-verbal.svg) no-repeat left center;
   color: var(--verbal);
 }
 
 .visual {
-  background-color:hsla(234, 85%, 45%, 0.068);
+  background: hsla(234, 85%, 45%, 0.068) url(../imagens/icon-visual.svg) no-repeat left center;
   color: var(--visual);
 }
 
