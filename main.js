@@ -1,8 +1,10 @@
 const gerarLista = document.querySelector('[data-list]')
 const gerarScore = document.querySelector('[data-results]')
+const gerarButton = document.querySelector('[data-summary]')
 let auxiliar = 0
 let media = 0
 let listaDeDados = []
+
 async function dadosJson () {
   listaDeDados = await fetch('./data.json');
   components = await listaDeDados.json();
@@ -12,9 +14,13 @@ async function dadosJson () {
     auxiliar = auxiliar += component.score
     gerarLista.innerHTML += `<li class="${component.category}
     list"><p>${component.category}</p><span class="info"><strong>
-    ${component.score}</strong><span>/ 100</span></span></li>`
+    ${component.score}</strong><span>/ 100</span></span></li>
+    `
     
   })
+  
+  gerarButton.innerHTML += `<a class="button" href="@">Continue</a>`
+  
   media = auxiliar / components.length
   
   gerarScore.innerHTML += `<div class="results-title">
