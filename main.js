@@ -7,7 +7,7 @@ let listaDeDados = []
 
 async function dadosJson () {
   listaDeDados = await fetch('./data.json');
-  components = await listaDeDados.json();
+  const components = await listaDeDados.json();
 
   components.forEach((component) => {
 
