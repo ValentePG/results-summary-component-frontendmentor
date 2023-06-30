@@ -1,7 +1,7 @@
 # Results summary component
 
 ## 💻 Projeto 
-Projeto 1 Front End Mentor
+Projeto 2 Front End Mentor
 [Veja aqui!](https://valentepg.github.io/results-summary-component-frontendmentor/)
 
 ## 🛠️ Funcionalidades
